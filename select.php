@@ -11,12 +11,12 @@ and open the template in the editor.
     <body>
 
         <?php
-        $conn = mysql_connect("localhost", "lisa","lisamoon");
+        $conn = mysql_connect("localhost", "****","*******");
         if($conn == flase){
             die("Mysql connection error");
         }
         mysql_set_charset("utf8");
-        mysql_select_db("lisadb");
+        mysql_select_db("*******");
         $sql ="select * from restaurant";
         $res = mysql_query($sql);
         if($res == false){
